@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T20:18:56.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="zZMG6LzrwW6a2q6n61Sa" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-21T20:19:22.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="IE9tJVbuSsphT_wtQl8u" version="14.2.4" type="github">
   <diagram name="Page-1" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -46,11 +46,8 @@
         <mxCell id="w3hroGBmBTcayOG3mfYm-17" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.arrowSE;fillColor=#000000;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="199.94" y="291.8" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w3hroGBmBTcayOG3mfYm-23" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.flatEdge;fillColor=#000000;aspect=fixed;rotation=60;" vertex="1" parent="1">
-          <mxGeometry x="610.8" y="534" width="63.2" height="36" as="geometry" />
-        </mxCell>
         <mxCell id="w3hroGBmBTcayOG3mfYm-24" value="Banco de Dados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="697.64" y="486.8" width="80" height="48" as="geometry" />
+          <mxGeometry x="523.16" y="371.8" width="80" height="48" as="geometry" />
         </mxCell>
         <mxCell id="w3hroGBmBTcayOG3mfYm-25" value="API Central - Filas via RabbitMQ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360.68" y="460" width="80" height="60" as="geometry" />
@@ -86,13 +83,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w3hroGBmBTcayOG3mfYm-35" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataCenter;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="690" y="534" width="95.28" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="P1SRwES-k7R10bH78eg--1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dataCenter;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="534.04" y="480" width="74.49" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="w3hroGBmBTcayOG3mfYm-36" value="Fila RabbitMQ" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="366.76" y="438.8" width="63.24" height="48" as="geometry" />
+          <mxGeometry x="515.52" y="435" width="95.28" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w3hroGBmBTcayOG3mfYm-38" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dashedEdgeDouble;fillColor=#000000;aspect=fixed;rotation=0;" vertex="1" parent="1">
           <mxGeometry x="436.76" y="438.8" width="69.17" height="39.4" as="geometry" />
