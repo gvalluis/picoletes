@@ -22,6 +22,19 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "Picoletes.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CsvHelper": "21.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Picoletes.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Picoletes.Dominio.dll": {}
+        }
       }
     }
   },
@@ -115,11 +128,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Picoletes.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Picoletes.Dominio/Picoletes.Dominio.csproj",
+      "msbuildProject": "../Picoletes.Dominio/Picoletes.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CsvHelper >= 21.1.0"
+      "Picoletes.Dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -129,11 +147,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj",
-      "projectName": "Picoletes.Dominio",
-      "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Interface\\Picoletes.Interface.csproj",
+      "projectName": "Picoletes.Interface",
+      "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Interface\\Picoletes.Interface.csproj",
       "packagesPath": "C:\\Users\\gvall\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -151,7 +169,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj": {
+              "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -162,12 +184,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "dependencies": {
-          "CsvHelper": {
-            "target": "Package",
-            "version": "[21.1.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -181,6 +197,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
