@@ -8,7 +8,7 @@ using Picoletes.API.Data;
 namespace Picoletes.API.Data.Migrations
 {
     [DbContext(typeof(PicoletesContext))]
-    [Migration("20210123201705_InitialCreate")]
+    [Migration("20210123203828_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -16,6 +16,20 @@ namespace Picoletes.API.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
+
+            modelBuilder.Entity("Picoletes.Core.Models.Estoque", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estoque");
+                });
 
             modelBuilder.Entity("Picoletes.Core.Models.PedidoRetirada", b =>
                 {

@@ -7,6 +7,19 @@ namespace Picoletes.API.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Estoque",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Quantidade = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Estoque", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "PedidoRetirada",
                 columns: table => new
                 {
@@ -43,6 +56,9 @@ namespace Picoletes.API.Data.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Estoque");
+
             migrationBuilder.DropTable(
                 name: "PedidoRetirada");
 

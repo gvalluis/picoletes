@@ -15,6 +15,20 @@ namespace Picoletes.API.Data.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.8");
 
+            modelBuilder.Entity("Picoletes.Core.Models.Estoque", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Estoque");
+                });
+
             modelBuilder.Entity("Picoletes.Core.Models.PedidoRetirada", b =>
                 {
                     b.Property<int>("Id")
