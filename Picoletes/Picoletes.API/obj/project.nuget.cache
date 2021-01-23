@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kfp1yBQzFUMtkKcbuWRhGF9+tIj4+WJI5ZOF66SVOQkKLrE3GqoPF1orpOB+HTq+FYKOC/ka53QVAlVoSFh+NQ==",
+  "dgSpecHash": "NCg64qoWJJkI5V18jfaprF96rKtP357brGouCFi/MRQw8LATn4+kdvk32cuARRWKgpyQivq5q7FHMv4KhfsofQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gvall\\.nuget\\packages\\csvhelper\\21.1.0\\csvhelper.21.1.0.nupkg.sha512",
+    "C:\\Users\\gvall\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

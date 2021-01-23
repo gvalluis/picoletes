@@ -1,0 +1,12 @@
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.csprojAssemblyReference.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.AssemblyInfoInputs.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.AssemblyInfo.cs
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.csproj.CoreCompileInputs.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\Picoletes.API.exe
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.RazorTargetAssemblyInfo.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\staticwebassets\Picoletes.API.StaticWebAssets.Manifest.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\staticwebassets\Picoletes.API.StaticWebAssets.xml

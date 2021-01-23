@@ -1,12 +1,4 @@
-﻿using CsvHelper;
-using Picoletes.Dominio.Interfaces;
-using Picoletes.Dominio.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Threading.Tasks;
+﻿using Picoletes.Dominio.Interfaces;
 
 namespace Picoletes.Dominio.Services
 {

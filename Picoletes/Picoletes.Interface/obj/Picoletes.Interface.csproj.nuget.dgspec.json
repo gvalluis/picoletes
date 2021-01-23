@@ -4,14 +4,14 @@
     "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Interface\\Picoletes.Interface.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj": {
+    "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj",
-        "projectName": "Picoletes.Dominio",
-        "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj",
+        "projectName": "Picoletes.API",
+        "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj",
         "packagesPath": "C:\\Users\\gvall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,6 +57,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -91,8 +94,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj": {
-                "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj"
+              "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj": {
+                "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj"
               }
             }
           }
@@ -116,6 +119,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },

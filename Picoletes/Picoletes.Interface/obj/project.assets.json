@@ -23,18 +23,21 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Picoletes.Dominio/1.0.0": {
+      "Picoletes.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CsvHelper": "21.1.0"
         },
         "compile": {
-          "bin/placeholder/Picoletes.Dominio.dll": {}
+          "bin/placeholder/Picoletes.API.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Picoletes.Dominio.dll": {}
-        }
+          "bin/placeholder/Picoletes.API.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -129,15 +132,15 @@
         "version.txt"
       ]
     },
-    "Picoletes.Dominio/1.0.0": {
+    "Picoletes.API/1.0.0": {
       "type": "project",
-      "path": "../Picoletes.Dominio/Picoletes.Dominio.csproj",
-      "msbuildProject": "../Picoletes.Dominio/Picoletes.Dominio.csproj"
+      "path": "../Picoletes.API/Picoletes.API.csproj",
+      "msbuildProject": "../Picoletes.API/Picoletes.API.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Picoletes.Dominio >= 1.0.0"
+      "Picoletes.API >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -170,8 +173,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj": {
-              "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Dominio\\Picoletes.Dominio.csproj"
+            "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj": {
+              "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.API\\Picoletes.API.csproj"
             }
           }
         }
@@ -195,6 +198,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
