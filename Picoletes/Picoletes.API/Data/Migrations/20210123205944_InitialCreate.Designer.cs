@@ -8,7 +8,7 @@ using Picoletes.API.Data;
 namespace Picoletes.API.Data.Migrations
 {
     [DbContext(typeof(PicoletesContext))]
-    [Migration("20210123203828_InitialCreate")]
+    [Migration("20210123205944_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,6 +22,9 @@ namespace Picoletes.API.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("Quantidade")
                         .HasColumnType("INTEGER");

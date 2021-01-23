@@ -21,6 +21,9 @@ namespace Picoletes.API.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Nome")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("Quantidade")
                         .HasColumnType("INTEGER");
 

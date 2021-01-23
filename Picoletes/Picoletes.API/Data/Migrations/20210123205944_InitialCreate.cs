@@ -12,6 +12,7 @@ namespace Picoletes.API.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
+                    Nome = table.Column<string>(nullable: true),
                     Quantidade = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
