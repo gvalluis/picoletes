@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picoletes.Dominio", "Picoletes.Dominio\Picoletes.Dominio.csproj", "{D725EC72-1428-4266-BC6D-1DBEEA2A05E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picoletes.Interface", "Picoletes.Interface\Picoletes.Interface.csproj", "{BC3AD63F-450B-4915-81CE-4886BC1F2635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Picoletes.Interface", "Picoletes.Interface\Picoletes.Interface.csproj", "{BC3AD63F-450B-4915-81CE-4886BC1F2635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picoletes.API", "Picoletes.API\Picoletes.API.csproj", "{BA6CE7DC-C82F-4C44-8DCB-1B192549539A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BC3AD63F-450B-4915-81CE-4886BC1F2635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3AD63F-450B-4915-81CE-4886BC1F2635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3AD63F-450B-4915-81CE-4886BC1F2635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6CE7DC-C82F-4C44-8DCB-1B192549539A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6CE7DC-C82F-4C44-8DCB-1B192549539A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6CE7DC-C82F-4C44-8DCB-1B192549539A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6CE7DC-C82F-4C44-8DCB-1B192549539A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
