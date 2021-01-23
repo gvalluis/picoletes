@@ -18,7 +18,7 @@ namespace Picoletes.Interface
 
         private void ExecutarRetiradaClick(object sender, EventArgs e)
         {
-
+            _retiradaService.RealizarRetirada(new API.Models.PedidoRetirada());
             MessageBox.Show("Retirada de produtos realizada com sucesso", "Retirada",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Picoletes.API.Models;
 
 namespace Picoletes.API.Interfaces
 {
@@ -8,5 +6,7 @@ namespace Picoletes.API.Interfaces
     {
         public void RealizarRetirada();
         public void GerarBaseRetirada();
+
+        public void RealizarRetirada(PedidoRetirada pedido);
     }
 }

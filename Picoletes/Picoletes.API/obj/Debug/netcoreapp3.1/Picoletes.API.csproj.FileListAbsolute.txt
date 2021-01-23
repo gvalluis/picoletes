@@ -19,3 +19,4 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.pdb
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.genruntimeconfig.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.csprojAssemblyReference.cache
