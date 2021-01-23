@@ -1,6 +1,7 @@
 ﻿using Picoletes.Core.Interfaces;
 using Picoletes.Core.Models;
 using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace Picoletes.Interface
@@ -17,7 +18,11 @@ namespace Picoletes.Interface
 
         private void ExecutarRetiradaClick(object sender, EventArgs e)
         {
-            _retiradaService.RealizarRetirada(new PedidoRetirada());
+            Random n = new Random();
+            QuantidadeSabores quantidadeRetirada = new QuantidadeSabores(
+                Convert.ToInt32(SFloc.Value), Convert.ToInt32(SMor.Value), Convert.ToInt32(SChoc.Value), Convert.ToInt32(PChoc.Value),
+                Convert.ToInt32(PMor.Value), Convert.ToInt32(AFrut.Value), Convert.ToInt32(PLim.Value));
+            _retiradaService.RealizarRetirada(new PedidoRetirada(n.Next(0,9999), quantidadeRetirada));
             MessageBox.Show("Retirada de produtos realizada com sucesso", "Retirada",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

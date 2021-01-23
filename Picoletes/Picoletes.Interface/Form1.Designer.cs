@@ -37,16 +37,20 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
+            this.SFloc = new System.Windows.Forms.NumericUpDown();
+            this.SMor = new System.Windows.Forms.NumericUpDown();
+            this.SChoc = new System.Windows.Forms.NumericUpDown();
+            this.PChoc = new System.Windows.Forms.NumericUpDown();
+            this.PMor = new System.Windows.Forms.NumericUpDown();
+            this.PLim = new System.Windows.Forms.NumericUpDown();
+            this.AFrut = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.SFloc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SMor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SChoc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PChoc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PMor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PLim)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AFrut)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -132,51 +136,102 @@
             this.label7.TabIndex = 2;
             this.label7.Text = "Acai c Frutas";
             // 
-            // numericUpDown1
+            // SFloc
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(314, 104);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(52, 27);
-            this.numericUpDown1.TabIndex = 3;
+            this.SFloc.Location = new System.Drawing.Point(314, 104);
+            this.SFloc.Name = "SFloc";
+            this.SFloc.Size = new System.Drawing.Size(52, 27);
+            this.SFloc.TabIndex = 3;
+            this.SFloc.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown2
+            // SMor
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(436, 107);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(59, 27);
-            this.numericUpDown2.TabIndex = 3;
+            this.SMor.Location = new System.Drawing.Point(436, 107);
+            this.SMor.Name = "SMor";
+            this.SMor.Size = new System.Drawing.Size(59, 27);
+            this.SMor.TabIndex = 3;
+            this.SMor.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown3
+            // SChoc
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(545, 107);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(57, 27);
-            this.numericUpDown3.TabIndex = 3;
+            this.SChoc.Location = new System.Drawing.Point(545, 107);
+            this.SChoc.Name = "SChoc";
+            this.SChoc.Size = new System.Drawing.Size(57, 27);
+            this.SChoc.TabIndex = 3;
+            this.SChoc.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown4
+            // PChoc
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(667, 107);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(86, 27);
-            this.numericUpDown4.TabIndex = 3;
+            this.PChoc.Location = new System.Drawing.Point(667, 107);
+            this.PChoc.Name = "PChoc";
+            this.PChoc.Size = new System.Drawing.Size(86, 27);
+            this.PChoc.TabIndex = 3;
+            this.PChoc.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // numericUpDown5
+            // PMor
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(709, 315);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(59, 27);
-            this.numericUpDown5.TabIndex = 3;
+            this.PMor.Location = new System.Drawing.Point(780, 107);
+            this.PMor.Name = "PMor";
+            this.PMor.Size = new System.Drawing.Size(59, 27);
+            this.PMor.TabIndex = 3;
+            this.PMor.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // PLim
+            // 
+            this.PLim.Location = new System.Drawing.Point(868, 107);
+            this.PLim.Name = "PLim";
+            this.PLim.Size = new System.Drawing.Size(59, 27);
+            this.PLim.TabIndex = 3;
+            this.PLim.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // AFrut
+            // 
+            this.AFrut.Location = new System.Drawing.Point(959, 107);
+            this.AFrut.Name = "AFrut";
+            this.AFrut.Size = new System.Drawing.Size(59, 27);
+            this.AFrut.TabIndex = 3;
+            this.AFrut.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // InterfacePrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1477, 656);
-            this.Controls.Add(this.numericUpDown5);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.AFrut);
+            this.Controls.Add(this.PLim);
+            this.Controls.Add(this.PMor);
+            this.Controls.Add(this.PChoc);
+            this.Controls.Add(this.SChoc);
+            this.Controls.Add(this.SMor);
+            this.Controls.Add(this.SFloc);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -188,11 +243,13 @@
             this.Controls.Add(this.button1);
             this.Name = "InterfacePrincipal";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SFloc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SMor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SChoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PChoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PMor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PLim)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AFrut)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,11 +266,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown SFloc;
+        private System.Windows.Forms.NumericUpDown SMor;
+        private System.Windows.Forms.NumericUpDown SChoc;
+        private System.Windows.Forms.NumericUpDown PChoc;
+        private System.Windows.Forms.NumericUpDown PMor;
+        private System.Windows.Forms.NumericUpDown PLim;
+        private System.Windows.Forms.NumericUpDown AFrut;
     }
 }
 
