@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace Picoletes.API.Repository
 {
-    public class RetiradaRepository : IRetiradaRepository
+    public class EstoqueRepository : IEstoqueRepository
     {
         private readonly PicoletesContext _context;
 
-        public RetiradaRepository(PicoletesContext context)
+        public EstoqueRepository(PicoletesContext context)
         {
             _context = context;
         }

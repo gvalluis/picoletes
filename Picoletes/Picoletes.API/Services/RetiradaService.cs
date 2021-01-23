@@ -6,9 +6,9 @@ namespace Picoletes.API.Services
 {
     public class RetiradaService : IRetiradaService
     {
-        private readonly IRetiradaRepository _retiradaRepository;
+        private readonly IEstoqueRepository _retiradaRepository;
 
-        public RetiradaService(IRetiradaRepository retiradaRepository)
+        public RetiradaService(IEstoqueRepository retiradaRepository)
         {
             _retiradaRepository = retiradaRepository;
         }

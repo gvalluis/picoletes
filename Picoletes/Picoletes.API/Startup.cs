@@ -24,7 +24,7 @@ namespace Picoletes.API
         {
             services.AddControllers();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
-            services.AddScoped<IRetiradaRepository, RetiradaRepository>();
+            services.AddScoped<IEstoqueRepository, EstoqueRepository>();
             services.AddScoped<IRetiradaService, RetiradaService>();
             services.AddDbContext<PicoletesContext>(x => 
                 x.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));

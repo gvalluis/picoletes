@@ -10,10 +10,10 @@ namespace Picoletes.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class RetiradaController : ControllerBase
+    public class EstoqueController : ControllerBase
     {
-        private readonly IRetiradaRepository _repo;
-        public RetiradaController(IRetiradaRepository repo)
+        private readonly IEstoqueRepository _repo;
+        public EstoqueController(IEstoqueRepository repo)
         {
             _repo = repo;
         }
