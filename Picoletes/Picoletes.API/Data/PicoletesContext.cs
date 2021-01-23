@@ -10,6 +10,6 @@ namespace Picoletes.API.Data
         }
 
         public DbSet<PedidoRetirada> PedidoRetirada { get; set; }
-
+        public DbSet<Produto> Produtos { get; set; }
     }
 }
