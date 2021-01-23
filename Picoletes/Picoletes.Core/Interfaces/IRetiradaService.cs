@@ -8,6 +8,6 @@ namespace Picoletes.Core.Interfaces
         void GerarBaseRetirada();
         void RealizarRetirada(PedidoRetirada pedido);
         List<UnidadeRetirada> GerarPedidoRetirada();
-        List<UnidadeRetirada> GerarPedidoRetirada(QuantidadeSabores quantidadeSabores);
+        List<UnidadeRetirada> GerarPedidoRetirada(PedidoRetirada pedidoRetirada);
     }
 }

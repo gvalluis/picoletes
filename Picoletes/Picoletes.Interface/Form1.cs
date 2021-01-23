@@ -19,10 +19,16 @@ namespace Picoletes.Interface
         private void ExecutarRetiradaClick(object sender, EventArgs e)
         {
             Random n = new Random();
-            QuantidadeSabores quantidadeRetirada = new QuantidadeSabores(
-                Convert.ToInt32(SFloc.Value), Convert.ToInt32(SMor.Value), Convert.ToInt32(SChoc.Value), Convert.ToInt32(PChoc.Value),
-                Convert.ToInt32(PMor.Value), Convert.ToInt32(AFrut.Value), Convert.ToInt32(PLim.Value));
-            _retiradaService.RealizarRetirada(new PedidoRetirada(n.Next(0,9999), quantidadeRetirada));
+            
+            _retiradaService.RealizarRetirada(
+                new PedidoRetirada(n.Next(0, 9999),
+                    Convert.ToInt32(SFloc.Value),
+                    Convert.ToInt32(SMor.Value),
+                    Convert.ToInt32(SChoc.Value),
+                    Convert.ToInt32(PChoc.Value),
+                    Convert.ToInt32(PMor.Value),
+                    Convert.ToInt32(AFrut.Value),
+                    Convert.ToInt32(PLim.Value)));
             MessageBox.Show("Retirada de produtos realizada com sucesso", "Retirada",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

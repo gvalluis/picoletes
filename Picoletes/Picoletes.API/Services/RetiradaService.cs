@@ -38,17 +38,17 @@ namespace Picoletes.API.Services
             };
         }
 
-        public List<UnidadeRetirada> GerarPedidoRetirada(QuantidadeSabores quantidadeSabores)
+        public List<UnidadeRetirada> GerarPedidoRetirada(PedidoRetirada pedidoRetirada)
         {
             return new List<UnidadeRetirada>
             {
-                new UnidadeRetirada ("S5312", "Sorvete de flocos 200g", 200 ,  quantidadeSabores.qntSFloc,  4),
-                new UnidadeRetirada ("S1426", "Sorvete de morango 200g", 140 ,  quantidadeSabores.qntSMor,  4),
-                new UnidadeRetirada ("S1187", "Sorvete de chocolate 200g", 127 ,  quantidadeSabores.qntSChoc,  4),
-                new UnidadeRetirada ("P3214", "Picole de chocolate", 351 ,  quantidadeSabores.qntPChoc,  5),
-                new UnidadeRetirada ("P7568", "Picole de morango", 402 ,  quantidadeSabores.qntPMor,  5),
-                new UnidadeRetirada ("P6853", "Acai com frutas 200g", 50 ,  quantidadeSabores.qntAFrut,  3),
-                new UnidadeRetirada ("A1442", "Picole de limao com leite", 274 , quantidadeSabores.qntPLim,  5)
+                new UnidadeRetirada ("S5312", "Sorvete de flocos 200g", 200 ,  pedidoRetirada.qntSFloc,  4),
+                new UnidadeRetirada ("S1426", "Sorvete de morango 200g", 140 ,  pedidoRetirada.qntSMor,  4),
+                new UnidadeRetirada ("S1187", "Sorvete de chocolate 200g", 127 ,  pedidoRetirada.qntSChoc,  4),
+                new UnidadeRetirada ("P3214", "Picole de chocolate", 351 ,  pedidoRetirada.qntPChoc,  5),
+                new UnidadeRetirada ("P7568", "Picole de morango", 402 ,  pedidoRetirada.qntPMor,  5),
+                new UnidadeRetirada ("P6853", "Acai com frutas 200g", 50 ,  pedidoRetirada.qntAFrut,  3),
+                new UnidadeRetirada ("A1442", "Picole de limao com leite", 274 , pedidoRetirada.qntPLim,  5)
             };
         }
 
