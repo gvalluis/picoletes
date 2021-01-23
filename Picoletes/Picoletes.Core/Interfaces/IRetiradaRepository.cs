@@ -6,7 +6,6 @@ namespace Picoletes.Core.Interfaces
     {
         public void RealizarRetirada();
         public void GerarBaseRetirada();
-
         public void RealizarRetirada(PedidoRetirada pedido);
     }
 }

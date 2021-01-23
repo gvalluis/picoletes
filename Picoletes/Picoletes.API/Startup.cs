@@ -23,6 +23,7 @@ namespace Picoletes.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IRetiradaRepository, RetiradaRepository>();
             services.AddScoped<IRetiradaService, RetiradaService>();
             services.AddDbContext<PicoletesContext>(x => 
