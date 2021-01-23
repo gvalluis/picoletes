@@ -23,14 +23,12 @@ namespace Picoletes.Interface
 
             MessageBox.Show("Retirada de produtos realizada com sucesso", "Retirada",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
         }
 
         private void GerarRetiradaClick(object sender, EventArgs e)
         {
             RetiradaService retiradaService = new RetiradaService();
-            retiradaService.GerarRetirada();
+            retiradaService.GerarBaseRetirada();
             MessageBox.Show("Arquivo de retirada gerado", "Sucesso",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
