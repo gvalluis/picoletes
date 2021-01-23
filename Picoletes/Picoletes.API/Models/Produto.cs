@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Picoletes.Dominio.Models
+namespace Picoletes.API.Models
 {
     public class Produto
     {

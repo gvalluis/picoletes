@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Picoletes.Dominio.Interfaces;
-using Picoletes.Dominio.Repository;
+using Picoletes.API.Interfaces;
+using Picoletes.API.Repository;
+using Picoletes.API.Services;
 
 namespace Picoletes.API
 {
@@ -22,6 +23,7 @@ namespace Picoletes.API
         {
             services.AddControllers();
             services.AddScoped<IRetiradaRepository, RetiradaRepository>();
+            services.AddScoped<IRetiradaService, RetiradaService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

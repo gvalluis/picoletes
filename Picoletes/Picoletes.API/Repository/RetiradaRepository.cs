@@ -1,11 +1,11 @@
 ﻿using CsvHelper;
-using Picoletes.Dominio.Interfaces;
-using Picoletes.Dominio.Models;
+using Picoletes.API.Interfaces;
+using Picoletes.API.Models;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 
-namespace Picoletes.Dominio.Repository
+namespace Picoletes.API.Repository
 {
     public class RetiradaRepository : IRetiradaRepository
     {

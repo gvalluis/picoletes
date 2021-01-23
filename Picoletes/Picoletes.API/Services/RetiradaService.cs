@@ -1,14 +1,10 @@
-﻿using Picoletes.Dominio.Interfaces;
+﻿using Picoletes.API.Interfaces;
 
-namespace Picoletes.Dominio.Services
+namespace Picoletes.API.Services
 {
-    public class RetiradaService
+    public class RetiradaService : IRetiradaService
     {
         private readonly IRetiradaRepository _retiradaRepository;
-
-        public RetiradaService()
-        {
-        }
 
         public RetiradaService(IRetiradaRepository retiradaRepository)
         {

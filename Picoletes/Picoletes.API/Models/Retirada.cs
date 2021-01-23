@@ -1,4 +1,4 @@
-﻿namespace Picoletes.Dominio.Models
+﻿namespace Picoletes.API.Models
 {
     public class Retirada
     {

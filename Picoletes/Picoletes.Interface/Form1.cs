@@ -1,4 +1,6 @@
-﻿using Picoletes.Dominio.Services;
+﻿using Picoletes.API.Interfaces;
+using Picoletes.API.Repository;
+using Picoletes.API.Services;
 using System;
 using System.Windows.Forms;
 
@@ -6,8 +8,11 @@ namespace Picoletes.Interface
 {
     public partial class InterfacePrincipal : Form
     {
-        public InterfacePrincipal()
+        private IRetiradaService _retiradaService;
+        public InterfacePrincipal(IRetiradaService retiradaService)
         {
+            _retiradaService = retiradaService;
+
             InitializeComponent();
         }
 
@@ -20,8 +25,7 @@ namespace Picoletes.Interface
 
         private void GerarRetiradaClick(object sender, EventArgs e)
         {
-            RetiradaService retiradaService = new RetiradaService();
-            retiradaService.GerarBaseRetirada();
+            _retiradaService.GerarBaseRetirada();
             MessageBox.Show("Arquivo de retirada gerado", "Sucesso",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Picoletes.Dominio.Interfaces
+namespace Picoletes.API.Interfaces
 {
     public interface IRetiradaRepository
     {

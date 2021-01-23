@@ -1,3 +1,5 @@
+using Picoletes.API.Repository;
+using Picoletes.API.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +19,7 @@ namespace Picoletes.Interface
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InterfacePrincipal());
+            Application.Run(new InterfacePrincipal(new RetiradaService(new RetiradaRepository())));
         }
     }
 }

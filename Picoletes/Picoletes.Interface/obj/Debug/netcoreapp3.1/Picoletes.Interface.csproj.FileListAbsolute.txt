@@ -5,8 +5,6 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Interface.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Interface.pdb
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\CsvHelper.dll
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Dominio.dll
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Dominio.pdb
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csprojAssemblyReference.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csproj.GenerateResource.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.AssemblyInfoInputs.cache
@@ -17,3 +15,9 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.pdb
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.genruntimeconfig.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.InterfacePrincipal.resources
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.API.exe
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.API.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.API.pdb

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Picoletes.Dominio.Services
+namespace Picoletes.API.Services
 {
     public interface IDataService<T>
     {
