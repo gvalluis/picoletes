@@ -1,14 +1,23 @@
 ﻿using CsvHelper;
+using Microsoft.EntityFrameworkCore;
+using Picoletes.API.Data;
 using Picoletes.Core.Interfaces;
 using Picoletes.Core.Models;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace Picoletes.API.Repository
 {
     public class RetiradaRepository : IRetiradaRepository
     {
+        private readonly PicoletesContext _context;
+
+        public RetiradaRepository(PicoletesContext context)
+        {
+            _context = context;
+        }
         public void RealizarRetirada()
         {
             //
@@ -46,6 +55,14 @@ namespace Picoletes.API.Repository
             }
         }
 
+        public async Task<IReadOnlyList<Estoque>> GetEstoqueAsync()
+        {
+            return await _context.Estoque.ToListAsync();
+        }
 
+        public async Task<Estoque> GetEstoqueByIdAsync(int id)
+        {
+            return await _context.Estoque.FindAsync(id);
+        }
     }
 }
