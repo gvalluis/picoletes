@@ -1,6 +1,5 @@
-﻿using Picoletes.API.Interfaces;
-using Picoletes.API.Repository;
-using Picoletes.API.Services;
+﻿using Picoletes.Core.Interfaces;
+using Picoletes.Core.Models;
 using System;
 using System.Windows.Forms;
 
@@ -18,7 +17,7 @@ namespace Picoletes.Interface
 
         private void ExecutarRetiradaClick(object sender, EventArgs e)
         {
-            _retiradaService.RealizarRetirada(new API.Models.PedidoRetirada());
+            _retiradaService.RealizarRetirada(new PedidoRetirada());
             MessageBox.Show("Retirada de produtos realizada com sucesso", "Retirada",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

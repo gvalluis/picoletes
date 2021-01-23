@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Picoletes.API.Data;
+using Picoletes.Core.Interfaces;
 using Picoletes.Core.Models;
 
 namespace Picoletes.API.Controllers
@@ -14,24 +15,24 @@ namespace Picoletes.API.Controllers
     [Route("api/[controller]")]
     public class ProdutosController : ControllerBase
     {
-        private readonly PicoletesContext _context;
+        private readonly IProdutoRepository _repo;
 
-        public ProdutosController(PicoletesContext context)
+        public ProdutosController(IProdutoRepository repo)
         {
-            _context = context;
+            _repo = repo;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Produto>>> GetProdutos()
         {
-            var produtos = await _context.Produtos.ToListAsync();
+            var produtos = await _repo.GetProdutosAsync();
             return Ok(produtos);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Produto>> GetProdutos(int id)
         {
-            return await _context.Produtos.FindAsync(id);
+            return await _repo.GetProdutosByIdAsync(id);
         }
     }
 }

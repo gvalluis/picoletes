@@ -65,3 +65,5 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Core.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Core.pdb

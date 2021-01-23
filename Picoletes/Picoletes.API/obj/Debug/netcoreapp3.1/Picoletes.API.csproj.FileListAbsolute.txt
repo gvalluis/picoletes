@@ -65,3 +65,5 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.csproj.CoreCompileInputs.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\obj\Debug\netcoreapp3.1\Picoletes.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\Picoletes.Core.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.API\bin\Debug\netcoreapp3.1\Picoletes.Core.pdb

@@ -2,3 +2,8 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\obj\Debu
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\obj\Debug\netcoreapp3.1\Picoletes.Core.AssemblyInfoInputs.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\obj\Debug\netcoreapp3.1\Picoletes.Core.AssemblyInfo.cs
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\obj\Debug\netcoreapp3.1\Picoletes.Core.csproj.CoreCompileInputs.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\bin\Debug\netcoreapp3.1\Picoletes.Core.deps.json
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\bin\Debug\netcoreapp3.1\Picoletes.Core.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\bin\Debug\netcoreapp3.1\Picoletes.Core.pdb
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\obj\Debug\netcoreapp3.1\Picoletes.Core.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Core\obj\Debug\netcoreapp3.1\Picoletes.Core.pdb

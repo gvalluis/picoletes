@@ -420,10 +420,16 @@
           "CsvHelper": "21.1.0",
           "Microsoft.EntityFrameworkCore": "3.1.8",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.8",
+          "Picoletes.Core": "1.0.0",
           "System.Data.SQLite.Core": "1.0.113.7"
         },
         "runtime": {
           "Picoletes.API.dll": {}
+        }
+      },
+      "Picoletes.Core/1.0.0": {
+        "runtime": {
+          "Picoletes.Core.dll": {}
         }
       }
     }
@@ -680,6 +686,11 @@
       "hashPath": "system.text.json.4.7.2.nupkg.sha512"
     },
     "Picoletes.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Picoletes.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

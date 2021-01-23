@@ -1,4 +1,6 @@
-﻿using Picoletes.Core.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using Picoletes.API.Data;
+using Picoletes.Core.Interfaces;
 using Picoletes.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -9,14 +11,20 @@ namespace Picoletes.API.Repository
 {
     public class ProdutoRepository : IProdutoRepository
     {
-        public Task<IReadOnlyList<Produto>> GetProdutosAsync()
+        private readonly PicoletesContext _context;
+        public ProdutoRepository(PicoletesContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
         }
 
-        public Task<Produto> GetProdutosByIdAsync(int id)
+        public async Task<IReadOnlyList<Produto>> GetProdutosAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Produtos.ToListAsync();
+        }
+
+        public async Task<Produto> GetProdutosByIdAsync(int id)
+        {
+            return await _context.Produtos.FindAsync(id);
         }
     }
 }
