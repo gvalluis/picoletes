@@ -26,13 +26,13 @@ namespace Picoletes.API.Repository
 
             var arquivoInicial = new List<UnidadeRetirada>
             {
-                new UnidadeRetirada { Id = "S5312", DescricaoProduto = "Sorvete de flocos 200g", QtdEstoque = 200 , QtdRetirada = 10, ValidadeForaFreezer = 4},
-                new UnidadeRetirada { Id = "S1426", DescricaoProduto = "Sorvete de morango 200g", QtdEstoque = 140 , QtdRetirada = 9, ValidadeForaFreezer = 4},
-                new UnidadeRetirada { Id = "S1187", DescricaoProduto = "Sorvete de chocolate 200g", QtdEstoque = 127 , QtdRetirada = 11, ValidadeForaFreezer = 4},
-                new UnidadeRetirada { Id = "P3214", DescricaoProduto = "Picole de chocolate", QtdEstoque = 351 , QtdRetirada = 12, ValidadeForaFreezer = 5},
-                new UnidadeRetirada { Id = "P7568", DescricaoProduto = "Picole de morango", QtdEstoque = 402 , QtdRetirada = 15, ValidadeForaFreezer = 5},
-                new UnidadeRetirada { Id = "P6853", DescricaoProduto = "Acai com frutas 200g", QtdEstoque = 50 , QtdRetirada = 8, ValidadeForaFreezer = 3},
-                new UnidadeRetirada { Id = "A1442", DescricaoProduto = "Picole de limao com leite", QtdEstoque = 274 , QtdRetirada = 20, ValidadeForaFreezer = 5},
+                new UnidadeRetirada ("S5312", "Sorvete de flocos 200g", 200 ,  10,  4),
+                new UnidadeRetirada ("S1426", "Sorvete de morango 200g", 140 ,  9,  4),
+                new UnidadeRetirada ("S1187", "Sorvete de chocolate 200g", 127 ,  11,  4),
+                new UnidadeRetirada ("P3214", "Picole de chocolate", 351 ,  12,  5),
+                new UnidadeRetirada ("P7568", "Picole de morango", 402 ,  15,  5),
+                new UnidadeRetirada ("P6853", "Acai com frutas 200g", 50 ,  8,  3),
+                new UnidadeRetirada ("A1442", "Picole de limao com leite", 274 , 20,  5)
             };
             var diretorio = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
