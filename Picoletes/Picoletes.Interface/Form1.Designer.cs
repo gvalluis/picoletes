@@ -1,6 +1,6 @@
 ﻿namespace Picoletes.Interface
 {
-    partial class Form1
+    partial class InterfacePrincipal
     {
         /// <summary>
         ///  Required designer variable.

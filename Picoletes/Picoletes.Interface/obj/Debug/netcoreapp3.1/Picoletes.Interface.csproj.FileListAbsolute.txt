@@ -8,7 +8,6 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Dominio.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Dominio.pdb
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csprojAssemblyReference.cache
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.Form1.resources
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csproj.GenerateResource.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.AssemblyInfoInputs.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.AssemblyInfo.cs
@@ -17,3 +16,4 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.pdb
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.genruntimeconfig.cache
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.InterfacePrincipal.resources

@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Picoletes.Interface
 {
-    public partial class Form1 : Form
+    public partial class InterfacePrincipal : Form
     {
-        public Form1()
+        public InterfacePrincipal()
         {
             InitializeComponent();
         }

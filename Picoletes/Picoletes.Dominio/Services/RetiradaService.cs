@@ -14,6 +14,10 @@ namespace Picoletes.Dominio.Services
     {
         private readonly IRetiradaRepository _retiradaRepository;
 
+        public RetiradaService()
+        {
+        }
+
         public RetiradaService(IRetiradaRepository retiradaRepository)
         {
             _retiradaRepository = retiradaRepository;
