@@ -487,6 +487,16 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
+      },
+      "Picoletes.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Picoletes.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Picoletes.Core.dll": {}
+        }
       }
     }
   },
@@ -1276,6 +1286,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Picoletes.Core/1.0.0": {
+      "type": "project",
+      "path": "../Picoletes.Core/Picoletes.Core.csproj",
+      "msbuildProject": "../Picoletes.Core/Picoletes.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1285,6 +1300,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
+      "Picoletes.Core >= 1.0.0",
       "System.Data.SQLite.Core >= 1.0.113.7"
     ]
   },
@@ -1317,7 +1333,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Core\\Picoletes.Core.csproj": {
+              "projectPath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Core\\Picoletes.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

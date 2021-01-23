@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Picoletes.API.Data;
-using Picoletes.API.Models;
+using Picoletes.Core.Models;
 
 namespace Picoletes.API.Controllers
 {

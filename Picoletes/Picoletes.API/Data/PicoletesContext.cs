@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Picoletes.API.Models;
+using Picoletes.Core.Models;
 
 namespace Picoletes.API.Data
 {

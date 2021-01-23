@@ -1,6 +1,6 @@
 ﻿using CsvHelper;
-using Picoletes.API.Interfaces;
-using Picoletes.API.Models;
+using Picoletes.Core.Interfaces;
+using Picoletes.Core.Models;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;

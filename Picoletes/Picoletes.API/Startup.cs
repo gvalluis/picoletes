@@ -5,9 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Picoletes.API.Data;
-using Picoletes.API.Interfaces;
 using Picoletes.API.Repository;
 using Picoletes.API.Services;
+using Picoletes.Core.Interfaces;
 
 namespace Picoletes.API
 {
