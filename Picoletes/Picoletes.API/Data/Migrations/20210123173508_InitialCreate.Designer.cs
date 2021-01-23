@@ -9,7 +9,7 @@ using Picoletes.API.Data;
 namespace Picoletes.API.Data.Migrations
 {
     [DbContext(typeof(PicoletesContext))]
-    [Migration("20210123172853_InitialCreate")]
+    [Migration("20210123173508_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
