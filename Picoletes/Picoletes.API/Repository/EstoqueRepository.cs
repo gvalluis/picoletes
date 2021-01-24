@@ -64,5 +64,10 @@ namespace Picoletes.API.Repository
         {
             return await _context.Estoque.FindAsync(id);
         }
+
+        public Task PutRealizarRetirada(PedidoRetirada pedidoRetirada)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

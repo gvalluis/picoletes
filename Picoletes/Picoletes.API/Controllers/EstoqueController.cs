@@ -29,5 +29,13 @@ namespace Picoletes.API.Controllers
         {
             return await _repo.GetEstoqueByIdAsync(id);
         }
+
+        [HttpPut]
+        public async Task<ActionResult> PutRetirada()
+        {
+            var estoque = await _repo.GetEstoqueAsync();
+
+            return null;
+        }
     }
 }

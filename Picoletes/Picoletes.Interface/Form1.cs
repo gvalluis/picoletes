@@ -9,10 +9,8 @@ namespace Picoletes.Interface
     public partial class InterfacePrincipal : Form
     {
         private IRetiradaService _retiradaService;
-        public InterfacePrincipal(IRetiradaService retiradaService)
+        public InterfacePrincipal()
         {
-            _retiradaService = retiradaService;
-
             InitializeComponent();
         }
 
@@ -20,22 +18,22 @@ namespace Picoletes.Interface
         {
             Random n = new Random();
             
-            _retiradaService.RealizarRetirada(
-                new PedidoRetirada(n.Next(0, 9999),
-                    Convert.ToInt32(SFloc.Value),
-                    Convert.ToInt32(SMor.Value),
-                    Convert.ToInt32(SChoc.Value),
-                    Convert.ToInt32(PChoc.Value),
-                    Convert.ToInt32(PMor.Value),
-                    Convert.ToInt32(AFrut.Value),
-                    Convert.ToInt32(PLim.Value)));
+            //_retiradaService.RealizarRetirada(
+            //    new PedidoRetirada(n.Next(0, 9999),
+            //    Convert.ToInt32(SFloc.Value),
+            //    Convert.ToInt32(SMor.Value),
+            //    Convert.ToInt32(SChoc.Value),
+            //    Convert.ToInt32(PChoc.Value),
+            //    Convert.ToInt32(PMor.Value),
+            //    Convert.ToInt32(AFrut.Value),
+            //    Convert.ToInt32(PLim.Value)));
             MessageBox.Show("Retirada de produtos realizada com sucesso", "Retirada",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void GerarRetiradaClick(object sender, EventArgs e)
         {
-            _retiradaService.GerarBaseRetirada();
+            //_retiradaService.GerarBaseRetirada();
             MessageBox.Show("Arquivo de retirada gerado", "Sucesso",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

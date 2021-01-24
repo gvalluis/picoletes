@@ -19,7 +19,7 @@ namespace Picoletes.Interface
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InterfacePrincipal(new RetiradaService(new EstoqueRepository())));
+            Application.Run(new InterfacePrincipal());
         }
     }
 }

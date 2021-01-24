@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Picoletes.API.Data;
 using Picoletes.API.Repository;
-using Picoletes.API.Services;
 using Picoletes.Core.Interfaces;
 
 namespace Picoletes.API
@@ -25,7 +24,6 @@ namespace Picoletes.API
             services.AddControllers();
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IEstoqueRepository, EstoqueRepository>();
-            services.AddScoped<IRetiradaService, RetiradaService>();
             services.AddDbContext<PicoletesContext>(x => 
                 x.UseSqlite(_configuration.GetConnectionString("DefaultConnection")));
         }

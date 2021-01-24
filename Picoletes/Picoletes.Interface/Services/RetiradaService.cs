@@ -6,24 +6,13 @@ namespace Picoletes.API.Services
 {
     public class RetiradaService : IRetiradaService
     {
-        private readonly IEstoqueRepository _retiradaRepository;
+        private readonly IEstoqueRepository _estoqueRepository;
 
-        public RetiradaService(IEstoqueRepository retiradaRepository)
+        public RetiradaService(IEstoqueRepository estoqueRepository)
         {
-            _retiradaRepository = retiradaRepository;
+            _estoqueRepository = estoqueRepository;
         }
         
-        public void GerarBaseRetirada()
-        {
-            _retiradaRepository.GerarBaseRetirada();
-        }
-
-
-        public void RealizarRetirada(PedidoRetirada pedido)
-        {
-            _retiradaRepository.RealizarRetirada(pedido);
-        }
-
         public List<UnidadeRetirada> GerarPedidoRetirada()
         {
             return new List<UnidadeRetirada>

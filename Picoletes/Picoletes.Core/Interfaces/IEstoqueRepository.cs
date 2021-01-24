@@ -8,8 +8,6 @@ namespace Picoletes.Core.Interfaces
     {
         Task<IReadOnlyList<Estoque>> GetEstoqueAsync();
         Task<Estoque> GetEstoqueByIdAsync(int id);
-        public void RealizarRetirada();
-        public void GerarBaseRetirada();
-        public void RealizarRetirada(PedidoRetirada pedido);
+        Task PutRealizarRetirada(PedidoRetirada pedidoRetirada);
     }
 }
