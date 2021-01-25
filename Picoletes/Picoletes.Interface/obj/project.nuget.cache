@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jeWnsNIdDK0USuxGMYdXcP/24UJE6gHNuZiRGKggCMlU1VRpyypxX/kc4b2jKZl8h0gfg2XTgaRUWOG7y5yAsA==",
+  "dgSpecHash": "XkUXwQONjQlYdZkdl60CWEsc+eHf7DtySdmsmW5pnnP8WpE14GNc2zvSGtjzd5DJmzz7LwMtEl70wUOK3+OHIg==",
   "success": true,
   "projectFilePath": "C:\\Users\\gvall\\source\\repos\\gvalluis\\picoletes\\Picoletes\\Picoletes.Interface\\Picoletes.Interface.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\gvall\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\gvall\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
     "C:\\Users\\gvall\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\gvall\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\gvall\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\gvall\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\gvall\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",

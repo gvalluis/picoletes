@@ -1,18 +1,15 @@
 ﻿using Picoletes.Core.Interfaces;
 using Picoletes.Core.Models;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+using System.Net;
+using System.IO;
+using Picoletes.Interface.Repository;
 
-namespace Picoletes.API.Services
+namespace Picoletes.Interface.Services
 {
     public class RetiradaService : IRetiradaService
     {
-        private readonly IEstoqueRepository _estoqueRepository;
-
-        public RetiradaService(IEstoqueRepository estoqueRepository)
-        {
-            _estoqueRepository = estoqueRepository;
-        }
-        
         public List<UnidadeRetirada> GerarPedidoRetirada()
         {
             return new List<UnidadeRetirada>
@@ -41,6 +38,11 @@ namespace Picoletes.API.Services
             };
         }
 
+        public void RealizarRetirada(PedidoRetirada pedidoRetirada)
+        {
+            RetiradaRepository retiradaRepository = new RetiradaRepository();
+            var estoqueAtual = retiradaRepository.GetEstoqueAtual();
+        }
 
     }
 }

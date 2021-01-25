@@ -9,7 +9,6 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csproj.GenerateResource.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.AssemblyInfoInputs.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.AssemblyInfo.cs
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csproj.CoreCompileInputs.cache
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csproj.CopyComplete
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.pdb
@@ -67,3 +66,5 @@ C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Core.dll
 C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Picoletes.Core.pdb
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Interface\obj\Debug\netcoreapp3.1\Picoletes.Interface.csproj.CoreCompileInputs.cache
