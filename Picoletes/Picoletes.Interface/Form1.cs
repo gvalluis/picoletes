@@ -33,7 +33,6 @@ namespace Picoletes.Interface
 
         private void GerarRetiradaClick(object sender, EventArgs e)
         {
-            //_retiradaService.GerarBaseRetirada();
             MessageBox.Show("Arquivo de retirada gerado", "Sucesso",
             MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
