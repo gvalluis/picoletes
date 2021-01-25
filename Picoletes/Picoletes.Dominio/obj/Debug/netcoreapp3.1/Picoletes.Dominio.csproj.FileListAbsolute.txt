@@ -1,9 +1,0 @@
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\bin\Debug\netcoreapp3.1\Picoletes.Dominio.deps.json
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\bin\Debug\netcoreapp3.1\Picoletes.Dominio.dll
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\bin\Debug\netcoreapp3.1\Picoletes.Dominio.pdb
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\obj\Debug\netcoreapp3.1\Picoletes.Dominio.AssemblyInfoInputs.cache
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\obj\Debug\netcoreapp3.1\Picoletes.Dominio.AssemblyInfo.cs
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\obj\Debug\netcoreapp3.1\Picoletes.Dominio.dll
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\obj\Debug\netcoreapp3.1\Picoletes.Dominio.pdb
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\obj\Debug\netcoreapp3.1\Picoletes.Dominio.csprojAssemblyReference.cache
-C:\Users\gvall\source\repos\gvalluis\picoletes\Picoletes\Picoletes.Dominio\obj\Debug\netcoreapp3.1\Picoletes.Dominio.csproj.CoreCompileInputs.cache
